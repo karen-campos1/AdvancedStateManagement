@@ -27,6 +27,7 @@ const UpdateExercise = () => {
   return (
     <div>
       <h2>Update Exercise</h2>
+      <p>Click me to edit:</p>
       <ul>
         {exercises.map((ex) => (
           <li key={ex.id} onClick={() => handleSelect(ex)}>
